@@ -1,0 +1,143 @@
+header{
+    text-align: center;
+    background-color: rgb(112, 112, 112);
+    height: 60px;
+}
+
+.logo-icon{
+    color: rgb(255, 255, 255);
+    padding-bottom: 10px;
+    font-weight: bolder;
+}
+
+.mainLoginInput{
+  height: 20px;
+  padding: 0px;
+  font-size: 15px;
+}
+
+.mainLoginInput::-webkit-input-placeholder { 
+font-family: FontAwesome;
+color: rgb(184, 174, 174);
+}
+
+section{
+    background-image: url('yellow.webp');
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main{
+   width: 100%;
+   text-align: center;
+   padding-top: 10px;
+}
+
+img{
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;   
+}
+
+.firstimg img{
+    display: inline-block;
+}
+
+h2{
+    font-size: 15px;
+    color: rgb(211, 211, 17);
+    margin: 0 auto;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+h4{
+    font-size: 12px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+.email{
+    padding-bottom: 0;
+}
+
+footer{
+    text-align: center; 
+}
+
+.yellowline{
+    background-color: rgb(211, 211, 17);
+    width: 100%;
+    height: 10px;
+}
+
+.content{
+    background-color: rgb(112, 112, 112);
+    color: white;
+}
+
+.content a{
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+@media screen and (min-width: 600px){
+
+.logo-icon, .search-icon {
+        display: block;
+        width: 50%;
+}
+    
+.logo-icon{
+        float: left; 
+        margin-top: 20px; 
+} 
+
+.search-icon{
+        float: right;
+        margin-top: 18px;
+}
+
+img{
+    padding: 0px 30px;
+}
+
+.firstimg{
+        margin-top: -70px;
+}
+
+.twoimg{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.imgname1, .imgname2, .name1, .name2 {
+        display: inline-block;
+        padding: 0 30px;
+        padding: 0;
+        vertical-align: middle;
+}
+
+.imgname1 img {
+    height: 90px;
+    width: 90px;
+}
+
+.imgname2 img {
+    height: 90px;
+    width: 90px;
+}
+
+.container{
+    display: inline-block;
+    width: 24%;
+    vertical-align: top;
+    padding-top: 10px;
+}}
+
